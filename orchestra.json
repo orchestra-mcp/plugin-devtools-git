@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-devtools-git",
+    "description": "Git & GitHub integration — version control and GitHub operations.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-devtools-git/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-devtools-git"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "devtools-git",
+    "extra": {
+        "plugin-id": "devtools.git",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
